@@ -6,7 +6,13 @@ html {
   position: absolute;
   top: 50px;
   right: 0;
+  bottom: 0px;
 }
 
+@media (max-width: 1400px) {
+  #ostrich {
+    top: -100px;
+  }
+}
 /* Write your solution here */
 
